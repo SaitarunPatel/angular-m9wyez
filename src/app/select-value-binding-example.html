@@ -13,7 +13,8 @@
 <div class="parent-div">
   <mat-form-field appearance="fill" class="child-div"> 
     <mat-label class="label-div">Select an option</mat-label>
-    <mat-select [(value)]="selected" class="select-div">
+    <!-- [(value)]="selected" -->
+    <mat-select class="select-div">
       <mat-option>None</mat-option>
       <mat-option value="option1">Option 1</mat-option>
       <mat-option value="option2">Option 2</mat-option>
@@ -21,9 +22,18 @@
     </mat-select>
   </mat-form-field>
 </div>
-
-
-
+<br>
+<br>
+<br>
+<div class="parent-div">
+  <select class="child-div">
+    <option value="Please select Value">Please Select Option</option>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </select>
+</div>
 <br>
 <br>
 <br>
