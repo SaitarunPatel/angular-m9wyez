@@ -1,0 +1,15 @@
+.parent-div {
+  border: 2px solid red;
+  height: 200px;
+}
+.child-div {
+  border: 2px solid blue;
+  width: 100%;
+  height: 100%;
+}
+.label-div {
+  border: 2px solid violet;
+}
+.select-div {
+  border: 2px solid green;
+}
